@@ -1,9 +1,11 @@
-import Hero from "./components/Hero";
+import Hero from "./Pages/Hero";
+import Services from "./Pages/Services";
 
 function App() {
   return (
     <>
       <Hero />
+      <Services />
     </>
   );
 }

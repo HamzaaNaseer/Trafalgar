@@ -1,9 +1,10 @@
 import heroImg from "../assets/hero.png";
 import bg from "../assets/bg-hero.svg";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-12 gap-3 relative">
+    <div className="w-full grid grid-cols-12 gap-3 relative mx-auto">
       <div
         className="hidden absolute md:block bg-no-repeat bg-contain w-16 h-16 md:top-12 md:left-0"
         style={{
@@ -20,9 +21,7 @@ const Hero = () => {
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <button className="bg-buttons text-white rounded-2xl px-6 py-1.5 btn">
-            Consult Today
-          </button>
+          <Button title="Consult Today">Consult Today</Button>
         </div>
       </div>
       <div className="col-span-12 md:col-span-6">
