@@ -58,11 +58,11 @@ const servicesData: IServiceCardProp[] = [
 
 const Services = () => {
   return (
-    <div className="max-w-[1220px]   mt-4 text-center font-muli mx-auto px-5 relative">
+    <div className="max-w-[1220px]   mt-4 text-center font-muli mx-auto px-5 relative" id="Services">
       <svg
         className="hidden md:block absolute md:top-0 md:-left-1/4 -z-10"
         width="765"
-        height="500"
+        height="400"
         viewBox="0 0 765 619"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,11 @@ const Services = () => {
 
       <div className="">
         <p className="font-muli font-medium text-3xl">Our services</p>
-        <p className="text-text-color leading-9">
+        <div className="container flex justify-center">
+          <div className="border-black border w-16 my-4"></div>
+        </div>
+
+        <p className="text-text-color md:leading-9 font-muli font-light">
           We provide to you the best choiches for you. Adjust it to your health
           needs and make sure your undergo treatment with our highly qualified
           doctors you can consult with us which type of service is suitable for
